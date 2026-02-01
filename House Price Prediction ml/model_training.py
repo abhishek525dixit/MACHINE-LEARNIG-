@@ -90,7 +90,7 @@ class SegmentedRidge(BaseEstimator, RegressorMixin):
 
 def main():
     print("Loading data...")
-    df = pd.read_csv("bengaluru_house_prices.csv")
+    df = pd.read_csv("gurugram_house_prices.csv")
 
     # --- Phase 2: Super Clean Data ---
     df1 = df.drop(['society', 'balcony', 'availability'], axis='columns')

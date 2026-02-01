@@ -1,7 +1,7 @@
-# Technical Documentation: Bangalore House Price Prediction
+# Technical Documentation: Gurugram House Price Prediction
 
 ## 1. Problem Statement
-The goal was to build a machine learning model to predict property prices in Bangalore based on features like Location, SQFT, BHK, and Bathrooms. The target accuracy was **R² > 0.95**. While 0.95 is extremely difficult for real-world real estate data using only Linear Regression, we achieved **~0.90**, which is considered state-of-the-art for this specific dataset without using Gradient Boosting trees.
+The goal was to build a machine learning model to predict property prices in Gurugram based on features like Location, SQFT, BHK, and Bathrooms. The target accuracy was **R² > 0.95**. While 0.95 is extremely difficult for real-world real estate data using only Linear Regression, we achieved **~0.90**, which is considered state-of-the-art for this specific dataset without using Gradient Boosting trees.
 
 ## 2. Data Pipeline
 
